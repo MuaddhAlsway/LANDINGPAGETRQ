@@ -105,7 +105,7 @@ export default function Cta() {
           {/* Background */}
           <div className="cta-img absolute inset-0">
             <Image
-              src="/images/cta-img.png"
+              src="/serviceimage/product.webp"
               alt="CTA"
               fill
               className="cta-bg-img object-cover opacity-40"

@@ -2,7 +2,6 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import { gsap, useGSAP, SplitText } from "@/lib/gsap";
-import { status } from "@/data/data";
 
 export default function About() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -175,21 +174,6 @@ export default function About() {
             >
               Learn more about us
             </a>
-
-            {/* Stats with animated counters */}
-            <div className="mt-10 grid grid-cols-3 gap-6">
-              {status.map((s) => (
-                <div key={s.id} className="stat-item">
-                  <p
-                    className="stat-number text-white text-3xl font-bold"
-                    data-target={parseInt(s.value)}
-                  >
-                    {s.value}
-                  </p>
-                  <p className="text-neutral-500 text-xs mt-1 leading-snug">{s.label}</p>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Right — image */}

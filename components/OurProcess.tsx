@@ -126,7 +126,7 @@ export default function OurProcess() {
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
           <div>
             <p className="process-label text-xs font-semibold tracking-[0.2em] uppercase text-neutral-500 mb-5">
-              Our process
+              Our process OUR PROCESS
             </p>
             <h2 className="process-title section-title text-white">
               <span className="line block overflow-hidden">How we bring</span>
@@ -144,7 +144,7 @@ export default function OurProcess() {
         <div className="relative">
           {/* Connecting line */}
           <div className="process-connector hidden xl:block absolute top-6 left-0 right-0 h-px bg-white/20 z-0" />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 relative z-10">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-8 relative z-10">
           {processItems.map((item, index) => (
             <div key={item.id} className="process-item">
               {/* Number */}

@@ -124,10 +124,10 @@ export default function Services() {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-14">
           <div>
             <p className="services-label text-xs font-semibold tracking-[0.2em] uppercase text-neutral-500 mb-5">
-              Our services
+              OUR SERVICES
             </p>
             <h2 className="services-title section-title text-white">
-              <span className="line block overflow-hidden">What we offer</span>
+              <span className="line block overflow-hidden">WHAT WE OFFER </span>
             </h2>
           </div>
           <p className="services-desc text-neutral-400 text-[15px] leading-relaxed max-w-sm">

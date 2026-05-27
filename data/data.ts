@@ -10,64 +10,49 @@ import {
 export const navItems: NavItem[] = [
   {
     id: 1,
-    label: "Home",
+    label: "HOME",
     href: "#home",
   },
   {
     id: 2,
-    label: "About",
+    label: "ABOUT",
     href: "#about",
   },
   {
     id: 3,
-    label: "Our Service",
+    label: "OUR SERVICES",
     href: "#services",
   },
   {
     id: 4,
-    label: "Our Process",
+    label: "OUR PROCESS",
     href: "#process",
   },
 ];
 
-export const status: StatusItem[] = [
-  {
-    id: 1,
-    value: "340+",
-    label: "Successfull projects",
-  },
-  {
-    id: 2,
-    value: "64+",
-    label: "Team members",
-  },
-  {
-    id: 3,
-    value: "80+",
-    label: "Happy Clients",
-  },
-];
+
 
 export const servicesItems: ServiceItem[] = [
   {
     id: 1,
     img: "/serviceimage/14c.webp",
-    title: "Interior Design",
+    title: "INTERIOR DESIGN",
   },
   {
     id: 2,
     img: "/serviceimage/event.webp",
-    title: "Booth Design Management & Execution",
+    title: "BOOTH DESIGN MANAGMENT & EXECUTION"
+    ,
   },
   {
     id: 3,
     img: "/serviceimage/product.webp",
-    title: "Product & Furniture Design",
+    title: "PRODUCT & FUNITURE DESIGN",
   },
   {
     id: 4,
     img: "/serviceimage/concept.webp",
-    title: "Concept Design",
+    title: "CONCEPT DESIGN",
   },
 ];
 
@@ -101,6 +86,12 @@ export const processItems: ProcessItem[] = [
     title: "Final Handover",
     step: "Step 05",
     text: "Completing your perfect space.",
+  },
+  {
+    id: 6,
+    title: "Management & Supervision",
+    step: "Step 06",
+    text: "Overseeing the build and fit-out process to ensure everything is executed exactly as designed.",
   },
 ];
 

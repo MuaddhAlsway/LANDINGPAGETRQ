@@ -119,7 +119,8 @@ export default function Header() {
             rel="noopener noreferrer"
             className="header-cta hidden md:block text-sm font-semibold text-black bg-white px-6 py-2.5 rounded-full hover:bg-white/90 transition-colors"
           >
-            Get a quote
+            
+            GET A QUOTE
           </a>
           <button
             className="md:hidden"

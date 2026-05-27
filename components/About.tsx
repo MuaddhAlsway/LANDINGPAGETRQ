@@ -149,9 +149,9 @@ export default function About() {
               About us
             </p>
 
-            <h2 className="about-title section-title text-white mb-8">
-              <span className="line block overflow-hidden">Designing spaces</span>
-              <span className="line block overflow-hidden">that tell your story</span>
+            <h2 className="about-title text-white mb-8 font-semibold text-2xl sm:text-3xl lg:text-4xl leading-tight">
+              <span className="line block overflow-hidden">DESIGNING SPACES</span>
+              <span className="line block overflow-hidden about-title-stroke text-xl sm:text-2xl lg:text-3xl">THAT TELL YOUR STORY</span>
             </h2>
 
             <p className="about-text text-neutral-400 leading-relaxed text-[15px] mb-4">

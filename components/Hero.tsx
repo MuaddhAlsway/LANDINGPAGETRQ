@@ -176,13 +176,13 @@ export default function Hero() {
         {/* Title */}
         <h1 className="hero-title font-semibold text-white text-5xl sm:text-6xl lg:text-7xl xl:text-[80px] leading-[1.05] mb-8">
           <span className="line block overflow-hidden">
-            <span className="block">We Create</span>
+            <span className="block">WE CREATE</span>
           </span>
           <span className="line block overflow-hidden">
-            <span className="block">Beautiful</span>
+            <span className="block">BEAUTIFUL</span>
           </span>
           <span className="line block overflow-hidden">
-            <span className="hero-spaces block italic font-light">Spaces.</span>
+            <span className="hero-spaces block italic font-light">SPACE.</span>
           </span>
         </h1>
 

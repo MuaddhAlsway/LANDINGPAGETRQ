@@ -119,7 +119,7 @@ export default function Cta() {
               Ready to start?
             </p>
             <h2 className="cta-content cta-heading section-title text-white mb-6">
-              Let&apos;s design your dream space together
+              LET&apos;S  DESIGN YOUR DREAM SPACE TOGETHER
             </h2>
             <p className="cta-content text-neutral-300 text-[15px] leading-relaxed mb-8">
               Whether you&apos;re renovating a single room or building from the

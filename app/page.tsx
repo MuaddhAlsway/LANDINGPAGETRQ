@@ -5,6 +5,7 @@ import Cta from "@/components/Cta";
 import Hero from "@/components/Hero";
 import OurProcess from "@/components/OurProcess";
 import Services from "@/components/Services";
+import VideoSection from "@/components/VideoSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <VideoSection />
       <OurProcess />
       <Cta />
     </LenisProvider>

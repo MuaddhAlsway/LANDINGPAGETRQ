@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "TRQ STUDIO translates ideas into thoughtfully designed spaces, combining clarity of vision with precise execution.",
   icons: {
-    icon: "/barlogo.png",
+    icon: "/favicon.ico",
     apple: "/barlogo.png",
   },
 };
